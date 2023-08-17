@@ -151,7 +151,10 @@ body {
   color: var(--cadet-blue-crayola);
   font-size: 1.6rem;
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+body{
+  overflow-x: clip;
 }
 
 :focus-visible { outline-offset: 4px; }
